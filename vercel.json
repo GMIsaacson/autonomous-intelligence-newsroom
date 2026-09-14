@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/intelligence-news", "destination": "/index.html" },
+    { "source": "/intelligence-news/:path*", "destination": "/index.html" },
+    { "source": "/:path*", "destination": "/index.html" }
+  ]
+}
